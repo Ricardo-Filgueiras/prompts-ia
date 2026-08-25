@@ -20,6 +20,27 @@ Em vez de perder horas tentando adivinhar como pedir algo para a IA, aqui você 
 
 ---
 
+## 💡 Por que usamos o Formato JSON nos Prompts Visuais?
+
+Nossos prompts de geração de imagem possuem uma seção exclusiva chamada **`[CONFIGURAÇÕES VISUAIS DA IMAGEM - JSON SPEC]`**. Essa abordagem oferece vantagens estratégicas:
+
+* **🎯 Controle Absoluto e Sem Ruído**: Modelos multimodais modernos (ChatGPT-4o, Gemini 1.5, Claude 3.5) interpretam a estrutura JSON como um contrato rígido de parâmetros. Isso previne que a IA altere traços faciais ou adicione elementos indesejados.
+* **⚙️ Personalização Descomplicada**: Você não precisa reescrever o prompt inteiro. Basta alterar um campo no JSON (ex: mudar a iluminação, o estilo ou a paleta de cores) para adaptar a imagem ao seu gosto.
+* **🔄 Engenharia Reversa & Reutilização**: Com nosso prompt de [Engenharia Reversa p/ JSON](perfis/engenharia-reversa-imagem.md), você pode analisar qualquer imagem da internet, extrair seu JSON de parâmetros e reutilizá-lo para aplicar o mesmo estilo fotográfico na sua própria foto.
+* **🌐 Suporte Bilingue (PT-BR / EN)**: Prompts visuais com suporte a comandos em português e prompts gerativos nativos em inglês para máxima fidelidade no Midjourney, Flux.1 e DALL-E 3.
+
+---
+
+## 📖 Glossário & Guias para Iniciantes
+
+Novo no universo da Inteligência Artificial ou do GitHub? Preparamos guias rápidos e didáticos para você entender cada conceito:
+
+* 🤖 [**O que é um Prompt?**](glossario/o-que-e-prompt.md) — Aprenda o que é um prompt, sua estrutura avançada e como falar com a IA.
+* 📊 [**O que é o Formato JSON?**](glossario/o-que-e-json.md) — Entenda a estrutura de par chave-valor e por que ela dá controle absoluto à IA.
+* 📝 [**O que é um Arquivo Markdown (.md)?**](glossario/o-que-e-markdown.md) — Descubra como funciona a linguagem de marcação e o botão de cópia rápida em 1-clique.
+
+---
+
 ## 📚 Biblioteca de Prompts por Categoria
 
 ### 👔 1. Perfis & Identidade Visual
@@ -27,8 +48,9 @@ Prompts focados em criação de retratos executivos, fotos de perfil corporativa
 
 | Prompt | Descrição | IAs Recomendadas | Link |
 | :--- | :--- | :--- | :--- |
-| **Perfil Executivo / LinkedIn** | Transforma fotos/selfies em retratos profissionais de estúdio comercial. | ChatGPT (4o), Midjourney, Flux | [Ver Prompt](perfis/perfil-linkedin.md) |
+| **Perfil Executivo / LinkedIn** | Transforma fotos/selfies em retratos profissionais de estúdio com controle por JSON (PT/EN). | ChatGPT (4o), Midjourney, Flux | [Ver Prompt](perfis/perfil-linkedin.md) |
 | **Perfil Criativo / Instagram** | Foto estilo lifestyle, iluminação natural golden hour para redes sociais. | ChatGPT (4o), Midjourney, Flux | [Ver Prompt](perfis/perfil-instagram.md) |
+| **Engenharia Reversa p/ JSON** | Analisa qualquer imagem e extrai parâmetros de fotografia, luz e prompt em JSON. | ChatGPT (4o), Gemini 1.5, Claude | [Ver Prompt](perfis/engenharia-reversa-imagem.md) |
 
 ---
 
