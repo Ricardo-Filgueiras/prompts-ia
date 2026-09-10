@@ -38,7 +38,6 @@ Novo no universo da Inteligência Artificial ou do GitHub? Preparamos guias ráp
 * 🤖 [**O que é um Prompt?**](glossario/o-que-e-prompt.md) — Aprenda o que é um prompt, sua estrutura avançada e como falar com a IA.
 * 📊 [**O que é o Formato JSON?**](glossario/o-que-e-json.md) — Entenda a estrutura de par chave-valor e por que ela dá controle absoluto à IA.
 * 📝 [**O que é um Arquivo Markdown (.md)?**](glossario/o-que-e-markdown.md) — Descubra como funciona a linguagem de marcação e o botão de cópia rápida em 1-clique.
-* 🎙️ [**Guia: Voz no Claude Code (STT/TTS)**](glossario/guia-voz-claude-code.md) — Configure entrada e saída por voz em tempo real no Claude Code via Python e `edge-tts` gratuito.
 
 ---
 
@@ -91,6 +90,8 @@ Automação de rotinas executivas e organização de informações.
 | :--- | :--- | :--- | :--- |
 | **Ata de Reunião Executiva** | Transforma transcrições de áudio brutas em atas acionáveis com tabela de prazos. | ChatGPT (4o), Claude 3.5 | [Ver Prompt](produtividade/ata-reuniao-executiva.md) |
 | **Investigação de Nível Técnico** | Avalia progressivamente a proficiência em linguagens/ferramentas (SQL, DAX, Python) com base em código real e gera um roadmap .md. | ChatGPT (4o), Claude 3.5, Gemini | [Ver Prompt](produtividade/investigacao-nivel-dominio.md) |
+| **Guia: Voz no Claude Code** | Configuração de entrada/saída por voz em tempo real (STT/TTS) no Claude Code via Python e `edge-tts`. | Claude Code (CLI) | [Ver Guia](produtividade/guia-voz-claude-code.md) |
+| **Skill: Voice TTS (Antigravity)** | Skill nativa e Lifecycle Hooks para leitura em voz alta (TTS) e interrupção de fala no Antigravity. | Antigravity (AGY) | [Ver Skill](.agents/skills/voice-tts/SKILL.md) |
 
 ---
 
