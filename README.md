@@ -92,7 +92,8 @@ Automação de rotinas executivas e organização de informações.
 | :--- | :--- | :--- | :--- |
 | **Ata de Reunião Executiva** | Transforma transcrições de áudio brutas em atas acionáveis com tabela de prazos. | ChatGPT (4o), Claude 3.5 | [Ver Prompt](produtividade/ata-reuniao-executiva.md) |
 | **Investigação de Nível Técnico** | Avalia progressivamente a proficiência em linguagens/ferramentas (SQL, DAX, Python) com base em código real e gera um roadmap .md. | ChatGPT (4o), Claude 3.5, Gemini | [Ver Prompt](produtividade/investigacao-nivel-dominio.md) |
-| **Guia: Voz no Claude Code** | Configuração de entrada/saída por voz em tempo real (STT/TTS) no Claude Code via Python e `edge-tts`. | Claude Code (CLI) | [Ver Guia](produtividade/guia-voz-claude-code.md) |
+| **Guia: Voz no Claude Code** | Configuração completa de voz (STT/TTS) para Claude Code (CLI e VS Code) com streaming rápido, interrupção ('parar') e repetição ('reler'). | Claude Code (CLI / VS Code) | [Ver Guia](produtividade/guia-voz-claude-code.md) |
+| **Guia: Voz no Antigravity** | Implementação de entrada e saída por voz (STT/TTS) para o Google Antigravity via Servidor MCP, Lifecycle Hooks e streaming ágil. | Antigravity (IDE / CLI) | [Ver Guia](produtividade/guia-voz-antigravity.md) |
 | **Skill: Voice TTS (Antigravity)** | Skill nativa e Lifecycle Hooks para leitura em voz alta (TTS) e interrupção de fala no Antigravity. | Antigravity (AGY) | [Ver Skill](.agents/skills/voice-tts/SKILL.md) |
 
 ---
