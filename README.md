@@ -62,6 +62,7 @@ Prompts para criação de conteúdo viral, copywriting de anúncios e roteiros e
 | **Roteiro de Carrossel** | Roteiro slide a slide educativo com prompts visuais para cada capa. | ChatGPT (4o), Claude 3.5 | [Ver Prompt](marketing/copy-carrossel.md) |
 | **Anúncio Pago (Ads)** | Copywriting de alta conversão (3 variações) + Prompts para criativo visual. | ChatGPT (4o), Claude, Midjourney | [Ver Prompt](marketing/anuncio-conversao.md) |
 | **Estratégia YouTube & Branding** | Diagnóstico completo de canal, plano de oratória em vídeo, portfólio e monetização B2B. | ChatGPT (4o), Gemini, Claude 3.5 | [Ver Prompt](marketing/estrategia-youtube-branding.md) |
+| **Auditoria & SEO para Shorts** | Otimização técnica de retenção (AVD), ganchos de 3s, engenharia de títulos e pacote de SEO (PT/EN). | ChatGPT (4o), Claude 3.5, Gemini | [Ver Prompt](marketing/otimizador-shorts-seo.md) |
 
 ---
 
